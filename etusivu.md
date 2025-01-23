@@ -1,16 +1,87 @@
-## Tutkinnon suorittaneen osaaminen
-Tieto- ja viestintätekniikan perustutkinnon suorittaneella on tieto- ja viestintätekniikan tehtävissä edellytetty ammattitaito, ja hän osaa toimia yhteistyökykyisesti tieto- ja viestintäteknisessä ympäristössä. Tutkinnon suorittanut osaa käyttää alan sanastoa, selvittää asiakkaan tarpeita ja tehdä asiakaslähtöisiä ratkaisuja tieto- ja viestintäteknisiin tehtäviin liittyen. Hän varmistaa, että työn lopputulos vastaa työlle asetettuja vaatimuksia.
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tieto- ja viestintätekniikka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-## Työtehtäviä, joissa tutkinnon suorittanut voi toimia
+        header {
+            background: #0044cc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
 
-__Elektroniikka-asentaja__ osaa tehdä elektroniikka-asennuksiin liittyviä asennus-, testaus- ja huoltotöitä. Hän osaa käsitellä oikein elektroniikka-asennuksissa tarvittavia komponentteja ja materiaaleja sekä käyttää tarvittavia työ- ja mittavälineitä.
+        nav {
+            background: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
 
-__Hyvinvointiteknologia-asentaja__ osaa toimia sosiaali- ja terveysalan toimintaperiaatteiden ja arvojen mukaan. Hän osaa asentaa turvalaite- ja hyvinvointiteknologiajärjestelmiä sekä hyödyntää hyvinvointiteknologiaa asiakkaan toimintakyvyn ylläpitämiseksi. Hän varmistaa laitteiden turvallisen käytön ja opastaa asiakasta hyvinvointiteknologian käytössä.
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
 
-__Tietoverkkoasentaja__ osaa tehdä tietoverkkokaapeloinnit asiakkaan vaatimusten ja ohjeiden mukaisesti. Hän huomioi tietoliikenneverkkojen rakenteet ja käytetyt materiaalit sekä tekee tarvittavia mittauksia ja testauksia järjestelmän toimivuuden varmistamiseksi.
+        nav a:hover {
+            color: #0044cc;
+        }
 
-__IT-tukihenkilö__ osaa toimia työasemien, verkko- ja lisälaitteiden sekä toimialueiden muodostamassa tieto- ja viestintäteknisessä ympäristössä. Hän toimii osana tietohallintoa sekä auttaa käyttäjiä erilaisissa teknisissä ongelmissa asiakkaan tiloissa tai etäyhteyden välityksellä.
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
 
-__Ohjelmistokehittäjä__ osaa ohjelmoida, hyödyntää rajapintoja, käsitellä tietoa sekä käyttää versionhallintaa. Ohjelmistokehitystiimin jäsenenä toimiessaan hän kommunikoi asiakkaan kanssa, suunnittelee ohjelmiston toteutuksen ja varmistaa toteutettavien toimintojen laadun.
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
 
-Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tieto- ja viestintätekniikka</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="osaaminen.html">Osaaminen</a>
+        <a href="tyotehtavat.html">Työtehtävät</a>
+    </nav>
+
+    <div class="container">
+        <h2>Tervetuloa!</h2>
+        <p>Tieto- ja viestintätekniikan perustutkinnon suorittaneilla on monipuoliset mahdollisuudet työskennellä alalla. Tutustu osaamisalueisiin ja työtehtäviin sivuillamme.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tieto- ja viestintätekniikka. Kaikki oikeudet pidätetään.</p>
+    </footer>
+</body>
+</html>
